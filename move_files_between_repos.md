@@ -42,7 +42,8 @@ cd <repo_A directory>
  git prune
  git clean -fd
  ```
-### Step 5:
+### Step 5 (optional):
+*If you want to copy the files within the folder rather than a folder directly you can skip this step.*
 Move everything that you preserved into a folder `FOLDER_NAME` that you want to move to `REPO_B`.
 
 ```bash
@@ -100,8 +101,4 @@ Push changes.
 git push
 ```
 
-*After changes are pushed BOTH cloned repos can be deleted.*
-
-
-
-
+*After changes are pushed the copy of `REPO_A` can be safely deleted.*
